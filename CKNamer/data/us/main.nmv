@@ -1,0 +1,11 @@
+# this is the United States
+# Names Generator, it should 
+# return some US-ish Names!
+
+title::United States Names
+desc::This Name Package has two thousand first names, \ and over eighty thousand last names!
+
+first_names::data/us/first.nmv
+first_div::100
+last_names::data/us/last.nmv
+last_div::1000
