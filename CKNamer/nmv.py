@@ -10,7 +10,9 @@ def load(file_object):
     datas = [x.split("#", 1)[0].strip() for x in datas] # Remove comments and strip whitespace
     datas = [x for x in datas if x] # removes  empty lines
 
+    line = 0
     for data in datas:
+        line+=1 #  First line value is 1
         if len(data) > 0 and data[0] == ">":
 
             if namespace in return_.keys():
@@ -21,7 +23,12 @@ def load(file_object):
             namespace_vars = {}
 
         elif len(data) > 0:
-            key,value = data.split("::", 1)
+            try:
+                key,value = data.split("::", 1)
+            except:
+                print(f"Fatal: Line {line} in {file_object.name}!")
+                print(f"Line: {data}")
+                quit()
             namespace_vars[key] = mstring(value)
 
     if namespace in return_.keys():

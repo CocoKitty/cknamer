@@ -1,0 +1,11 @@
+# this is the United KINGDOM
+# Names Generator,  it shouldb't be to
+# different from us
+
+title::United Kingdom Names
+desc::A less comprehensive, but still working, namepack
+
+first_names::data/uk/first.nmv
+first_div::100
+last_names::data/uk/last.nmv
+last_div::1 # Last doesn't have weights

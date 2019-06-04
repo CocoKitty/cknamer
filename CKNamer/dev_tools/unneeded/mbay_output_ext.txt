@@ -3,7 +3,7 @@
 
 >MAIN
 
-Smith::2501922 # Ahh, the classic Smith
+Smith::2501922
 Johnson::2014470
 Williams::1738413
 Jones::1544427
@@ -872,7 +872,7 @@ Pollard::34818
 Hooper::34818
 Burch::34818
 Mullen::34818
-Fry::34818 # *Futurama Noises*
+Fry::34818
 Riddle::34818
 Levy::34818
 David::34818
